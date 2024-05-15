@@ -4,4 +4,4 @@ function JasiahPage() {
   return <Jasiah />;
 }
 
-export default Jasiah;
+export default JasiahPage;

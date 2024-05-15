@@ -4,4 +4,4 @@ function GhostemanePage() {
   return <Ghostemane/>;
 }
 
-export default Ghostemane;
+export default GhostemanePage;

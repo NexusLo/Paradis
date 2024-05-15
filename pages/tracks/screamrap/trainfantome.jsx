@@ -4,4 +4,4 @@ function TrainfantomePage() {
   return <Trainfantome/>;
 }
 
-export default Trainfantome;
+export default TrainfantomePage;

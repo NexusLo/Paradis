@@ -1,7 +1,7 @@
 import Yvnnis from '../../../components/Tracks/Nextgen/Yvnnis';
 
 function YvnnisPage() {
-  return <Yvnnis />;
+  return <Yvnnis/>;
 }
 
 export default YvnnisPage;

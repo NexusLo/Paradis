@@ -4,4 +4,4 @@ function NascaraloePage() {
   return <Nascaraloe/>;
 }
 
-export default Nascaraloe;
+export default NascaraloePage;

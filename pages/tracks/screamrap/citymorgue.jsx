@@ -4,4 +4,4 @@ function CitymorguePage() {
   return <Citymorgue/>;
 }
 
-export default Citymorgue;
+export default CitymorguePage;

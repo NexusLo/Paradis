@@ -4,4 +4,4 @@ function XxxtentacionPage() {
   return <Xxxtentacion/>;
 }
 
-export default Xxxtentacion;
+export default XxxtentacionPage;

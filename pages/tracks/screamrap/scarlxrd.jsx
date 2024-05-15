@@ -4,4 +4,4 @@ function ScarlxrdPage() {
   return <Scarlxrd/>;
 }
 
-export default Scarlxrd;
+export default ScarlxrdPage;

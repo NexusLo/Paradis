@@ -4,4 +4,4 @@ function CameronaziPage() {
   return <Cameronazi/>;
 }
 
-export default Cameronazi;
+export default CameronaziPage;

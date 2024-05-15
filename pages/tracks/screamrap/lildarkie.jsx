@@ -4,4 +4,4 @@ function LildarkiePage() {
   return <Lildarkie/>;
 }
 
-export default Lildarkie;
+export default LildarkiePage;

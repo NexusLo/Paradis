@@ -4,4 +4,4 @@ function LafPage() {
   return <Laf/>;
 }
 
-export default LaFPage;
+export default LafPage;
