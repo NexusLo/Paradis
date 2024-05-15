@@ -1,7 +1,7 @@
-import LaF from '../../../components/Tracks/Ghettoyouth//LaF';
+import Laf from '../../../components/Tracks/Ghettoyouth//LaF';
 
-function LaFPage() {
-  return <LaF/>;
+function LafPage() {
+  return <Laf/>;
 }
 
 export default LaFPage;

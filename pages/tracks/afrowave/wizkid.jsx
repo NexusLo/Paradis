@@ -1,4 +1,4 @@
-import Wizkid from '../../../components/Tracks/Afrowave/ Wizkid ';
+import Wizkid from '../../../components/Tracks/Afrowave/Wizkid';
 
 function  WizkidPage() {
   return < Wizkid />;

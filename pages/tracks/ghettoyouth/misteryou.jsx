@@ -1,7 +1,7 @@
-import MisterYou from '../../../components/Tracks/Ghettoyouth/MisterYou';
+import Misteryou from '../../../components/Tracks/Ghettoyouth/Misteryou';
 
 function MisterPage() {
-  return <MisterYou/>;
+  return <Misteryou/>;
 }
 
 export default MisterPage;

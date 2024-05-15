@@ -1,7 +1,7 @@
-import KalashCrimi from '../../../components/Tracks/Ghettoyouth/KalashCrimi';
+import Kalashcrimi from '../../../components/Tracks/Ghettoyouth/KalashCrimi';
 
 function KalashPage() {
-  return <KalashCrimi/>;
+  return <Kalashcrimi/>;
 }
 
 export default KalashPage;
