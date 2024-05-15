@@ -1,4 +1,4 @@
-import Rema from '../../components/Tracks/Afrowave/Rema';
+import Rema from '../../../components/Tracks/Afrowave/Rema';
 
 function RemaPage() {
   return <Rema />;

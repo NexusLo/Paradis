@@ -4,4 +4,4 @@ function SolaarPage() {
   return <Solaar/>;
 }
 
-export default SolaarkPage;
+export default SolaarPage;
