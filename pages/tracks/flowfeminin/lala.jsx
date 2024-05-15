@@ -1,6 +1,6 @@
 import Lala from '../../../components/Tracks/Flowfeminin/Lala';
 
-function IsaiahPage() {
+function LalaPage() {
   return <Lala/>;
 }
 
