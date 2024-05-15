@@ -1,7 +1,7 @@
-import GhettoYouth from '../../components/GhettoYouth';
+import Siboy from '../../components/GhettoYouth/Siboy';
 
-function GhettoPage() {
-  return <GhettoYouth/>;
+function SiboyPage() {
+  return <Siboy/>;
 }
 
-export default GhettoPage;
+export default SiboyPage;

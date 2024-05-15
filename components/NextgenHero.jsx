@@ -14,10 +14,10 @@ const NextgenHero = () => {
             <h2>Nos Etoiles Montantes</h2>
          </div>
         <ul>
+            <li onClick={() => handleDialogItemClick('/tracks/nextgen/lalaace')}className={styles.liContainer}>Kay The Prodigy</li>
             <li onClick={() => handleDialogItemClick('/tracks/nextgen/roshi')}className={styles.liContainer}>Capitaine Roshi</li>
             <li onClick={() => handleDialogItemClick('/tracks/nextgen/bbjacques')}className={styles.liContainer}>BB Jacques</li>
-            <li onClick={() => handleDialogItemClick('/tracks/nextgen/lalaace')}className={styles.liContainer}>Lala & Ce</li>
-            <li onClick={() => handleDialogItemClick('/tracks/nextgen/luther')}className={styles.liContainer}>Luther</li>
+            <li onClick={() => handleDialogItemClick('/tracks/nextgen/luther')}className={styles.liContainer}>Jeune Lion</li>
             <li onClick={() => handleDialogItemClick('/tracks/nextgen/yvnnis')}className={styles.liContainer}>Yvnnis</li>
             <li onClick={() => handleDialogItemClick('/tracks/nextgen/lafeve')}className={styles.liContainer}>La Fève</li>
             <li onClick={() => handleDialogItemClick('/tracks/nextgen/bushi')}className={styles.liContainer}>Bu$hi</li>

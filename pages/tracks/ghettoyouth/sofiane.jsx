@@ -1,7 +1,7 @@
-import GhettoYouth from '../../components/GhettoYouth';
+import Sofiane from '../../components/GhettoYouth/Sofiane';
 
-function GhettoPage() {
-  return <GhettoYouth/>;
+function SofianePage() {
+  return <Sofiane/>;
 }
 
-export default GhettoPage;
+export default SofianePage;

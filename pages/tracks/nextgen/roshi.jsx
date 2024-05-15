@@ -1,7 +1,7 @@
-import NextgenRap from '../../components/NextgenRap';
+import Roshi from '../../../components/Tracks/Nextgen/Roshi';
 
-function NextgenPage() {
-  return <NextgenRap/>;
+function RoshiPage() {
+  return <Roshi />;
 }
 
-export default NextgenPage;
+export default RoshiPage;

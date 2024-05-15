@@ -1,4 +1,4 @@
-import Booba from '../../components/Booba';
+import Booba from '../../../components/Tracks/Ghettoyouth/Booba';
 
 function BoobaPage() {
   return <Booba/>;
