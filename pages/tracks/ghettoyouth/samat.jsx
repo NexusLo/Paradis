@@ -1,4 +1,4 @@
-import Samat from '../../components/Samat';
+import Samat from '../../components/Ghettoyouth/Samat';
 
 function SamatPage() {
   return <Samat/>;

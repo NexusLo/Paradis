@@ -1,4 +1,4 @@
-import MisterYou from '../../components/MisterYou';
+import MisterYou from '../../components//Ghettoyouth/MisterYou';
 
 function MisterPage() {
   return <MisterYou/>;

@@ -1,4 +1,4 @@
-import KalashCrimi from '../../components/KalashCrimi';
+import KalashCrimi from '../../components//Ghettoyouth/KalashCrimi';
 
 function KalashPage() {
   return <KalashCrimi/>;

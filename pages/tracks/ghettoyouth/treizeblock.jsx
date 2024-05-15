@@ -1,4 +1,4 @@
-import TreizeBlock from '../../components/TreizeBlock';
+import TreizeBlock from '../../components/Ghettoyouth/TreizeBlock';
 
 function TreizePage() {
   return <TreizeBlock/>;

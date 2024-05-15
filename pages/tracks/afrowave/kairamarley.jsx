@@ -1,4 +1,4 @@
-import Kairamarley from '../../../components/Tracks/Afrowave/Kairamarley';
+import Kairamarley from '../../components/Tracks/Afrowave/Kairamarley';
 
 function KairamarleyPage() {
   return <Kairamarley/>;
