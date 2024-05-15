@@ -1,4 +1,4 @@
-import Laf from '../../../components/Tracks/Ghettoyouth//LaF';
+import Laf from '../../../components/Tracks/Ghettoyouth//Laf';
 
 function LafPage() {
   return <Laf/>;
