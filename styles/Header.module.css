@@ -1,0 +1,123 @@
+/* Arapey Regular */
+@font-face {
+	font-family: 'DMSans';
+	src: url('../public/Assets/Fonts/DM_Sans/static/DMSans-Regular.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+  }
+  /* TT Interphases*/
+	@font-face {
+		font-family: 'TTInterphases';
+		src: url('../public/Assets/Fonts/TT-Interphases/TT\ Interphases\ Pro\ Trial\ Thin.ttf') format('truetype');
+		font-weight: normal;
+		font-style: normal;
+	  }
+
+  .link{
+    cursor: pointer;
+    font-size: 18px;
+    text-decoration: none;
+    color: white;
+
+  }
+.header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-top: 45px;
+    width: 100%;
+    color: white;
+    font-weight: 600;
+    font-family: 'TTInterphases', sans-serif;
+    height: 60px;
+    z-index: 2;
+  }
+  .navContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 101%;
+    margin-top: -1px;
+    background-color: rgba(68, 29, 29, 0.959);
+    text-decoration: none;
+  }
+
+  .ulContainer {
+    list-style: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+    margin-left: 100px;
+    text-decoration: none;
+  }
+  
+  .liContainer {
+    position: relative;
+    margin-right: 120px;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+    color: white !important;
+  }
+  
+  .liContainer::after {
+    content: "";
+    position: absolute; /* Utilisez position: absolute pour placer l'élément par rapport à .liContainer */
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 5px; /* Ajoutez une hauteur à l'élément pseudo-élément */
+    background-color: rgba(78, 9, 9, 0.173);
+    transition: background-color 0.3s;
+    pointer-events: none; /* Assurez-vous que l'élément pseudo-élément ne bloque pas les événements de la souris */
+  }
+  
+  .liContainer:hover::after {
+    height: 70%; /* Ajustez la hauteur au survol selon vos préférences */
+  }
+  .colonne {
+    position: fixed;
+    top: 60px; /* Hauteur du header */
+    left: 0;
+    height: calc(100vh - 60px); /* Hauteur totale de la vue moins la hauteur du header */
+    width: 250px;
+    background-color: rgba(68, 29, 29, 0.959);
+  }
+  .dialog {
+    position: absolute;
+    top: 130%; /* Position en dessous du titre du header */
+    left: -25%; /* Décalage de 100 pixels vers la gauche */
+    width: 200px; /* Ajustez la largeur selon vos besoins */
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2); /* Ombre légère pour la boîte de dialogue */
+    background-color: rgba(68, 29, 29, 0.159);
+    padding: 15px;
+    border-radius: 5px;
+  }
+  
+  .dialog p {
+    margin-bottom: 0px;
+    margin-top: 5px;
+    text-align: center;
+  }
+  
+  .dialog ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .dialog ul li {
+    cursor: pointer;
+    padding: 5px;
+    transition: background-color 0.3s;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  
+  .dialog ul li:hover {
+    background-color: rgba(78, 9, 9, 0.973);
+  }
+  .dialog ul li a{
+    text-decoration: none;
+    color: white
+  }

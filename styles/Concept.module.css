@@ -1,0 +1,66 @@
+/********** Notre Concept **********/
+
+.backgroundImage {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+  }
+
+.conceptContainer{
+	position: relative;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+}
+.titleContainer2 {
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	margin-left: 15.5%;
+	margin-top: 6.5%;
+
+  }
+.subtitleContainer1{
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	width: 30%;
+	height: 6%;
+	margin-left: 15.7%;
+	margin-top: -2.5%;
+	
+}
+.subtitleContainer2{
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	width: 30%;
+	height: 40%;
+	margin-left: 15.7%;
+	margin-top: 4%;
+}
+.conceptTitle{
+	font-size: 84px;
+	font-weight: 500;
+	font-family: 'Poppins', sans-serif;
+	color: black
+}
+.conceptSubtitle{
+	font-family: 'TTInterphases', sans-serif;
+	font-size: 22px;
+	font-weight: 600;
+	line-height: 1.6;
+}
+.contactButton{
+	background-color: black;
+	color: white;
+	margin-top: 40px;
+	font-size: 16px;
+	font-weight: 800;
+	border: none;
+	cursor: pointer;
+	width: 44%;
+	height: 88%;
+}
+

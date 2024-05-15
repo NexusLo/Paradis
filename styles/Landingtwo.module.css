@@ -1,0 +1,50 @@
+
+/************* Landing section 1 **************/
+
+.landingContainer{
+	display: flex;
+	height: 100vh;
+	width: 104vw;
+}
+
+.landingPic{
+	width: 100%;
+	height: 100%;
+}
+
+/********** Landing section 2 ***********/
+.leftContainer2 {
+	background-color: white;
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	width: 40%;
+	height: 100%;
+}
+.rightContainer2{
+	width: 60%;
+	height: 100%;
+	background-color: black;
+	color: white;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.landingTitle2{
+	font-size: 84px;
+	font-weight: 400;
+	font-family: 'TTInterphases', sans-serif;
+	color: white
+}
+.landingSubtitle2{
+	font-size: 28px;
+	font-family: 'TTInterphases', sans-serif;
+	font-weight: 400;
+	color: white;
+	margin-top: -45px;
+}
+
+
+

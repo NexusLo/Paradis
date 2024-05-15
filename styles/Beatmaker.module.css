@@ -1,0 +1,101 @@
+/********** Beat Container **********/
+
+.landingContainer{
+	display: flex;
+	height: 100vh;
+	width: 104vw;
+}
+
+.beatContainer{
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	width: 58%;
+	height: 100%;
+	background-color: black;
+}
+.beatImageContainer{
+	width: 55%;
+	height: 100%;
+	color: white;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-end;
+	background-color: black;
+}
+.beatTitleContainer {
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	padding-left: 2%;
+	margin-top: 7%;
+	width: 70%;
+  }
+
+.beatSubtitleContainer1{
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	width: 58%;
+	height: 30%;
+	margin-top: -2%;
+	margin-bottom: 5%;
+	margin-right: 8%;
+	color: white;
+
+}
+.beatSubtitleContainer2{
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	width: 58%;
+	height: 30%;
+	margin-bottom: -6%;
+	margin-top: -4%;
+	margin-right: 8%;
+	color: white;
+}
+.beatTitle{
+	font-size: 84px;
+	font-weight: 500;
+	font-family: 'Poppins', sans-serif;
+	color: white;
+	line-height: 1;
+}
+.beatSubtitle{
+	font-family: 'TTInterphases', sans-serif;
+	font-size: 22px;
+	font-weight: 600;
+	line-height: 1.6;
+}
+.discoverButton{
+	background-color: white;
+	color: black;
+	border: none;
+	cursor: pointer;
+	margin-top: 70px;
+	margin-right: 41%;
+	margin-bottom: 15%;
+	font-size: 16px;
+	font-weight: 800;
+	width: 25%;
+	height: 7.5%;
+}
+.beatmakerPic{
+	width: 90%;
+	height: 100%;
+}
+
+.contactButton{
+	background-color: black;
+	color: white;
+	margin-top: 45px;
+	font-size: 16px;
+	font-weight: 800;
+	border: none;
+	cursor: pointer;
+	width: 45%;
+	height: 15%;
+}

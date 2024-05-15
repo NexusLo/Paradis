@@ -1,0 +1,99 @@
+/********** Contact Container **********/
+.backgroundImage {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+  }
+
+.contactContainer {
+	position: relative;
+	height: 100vh;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+  }
+.logowContainer{
+	position: absolute;
+	top: -2%;
+	left: -1%;
+	width: 10%;
+	height: 10%;
+}
+.logowhite{
+	width: 150px;
+	height: 150px;
+}
+  
+  .backgroundImage {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+  }
+
+  .surroundingSquare {
+	position: relative;
+	background-color: rgba(68, 29, 29, 0.79);
+	width: 80%;
+	height: 22%;
+	display: flex;
+	align-items: center;	
+	justify-content: center;
+	margin-left: 11%;
+	margin-bottom: 4%;
+
+  }
+  .contactTitle{
+	font-size: 46px;
+	font-weight: 500;
+	font-family: 'TTInterphases', sans-serif;
+	color: rgba(255, 255, 255, 0.90);
+  }
+  .contactTitleContainer {
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	width: 50%;
+	height: 20%;
+	margin-left: 10%;
+	margin-bottom: 1%;
+	z-index: 2;
+  }
+  
+  .infoContainer {
+	position: relative;
+	display: flex;
+	margin-bottom: 3%;
+	flex-direction: column;
+	justify-content: center;
+	width: 50%;
+	height: 20%;
+	margin-left: 6%;
+	margin-top: 5.5%;
+	z-index: 2;
+  }
+  
+  .contactInfoFlex {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+  }
+  
+  .contactInfoTitle {
+	font-size: 24px;
+	font-weight: 500;
+	font-family: 'TTInterphases', sans-serif;
+	color: rgba(255, 255, 255, 1);
+	margin-top: -15px
+  }
+  .bar {
+	position: absolute;
+	width: 12px; /* Largeur de la barre */
+	height: 18%; /* Hauteur de la barre, ajustez selon vos besoins */
+	background-color:  rgba(255, 255, 255, 1);
+	left: calc(50% - 0px); /* Position à 50px à gauche de l'infoContainer */
+	margin-bottom: 4%;
+
+  }
