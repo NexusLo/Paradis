@@ -1,4 +1,4 @@
-import Herobis from '../../components/Etoiles_Montantes/Herobis';
+import Herobis from '../../components/NextgenHero';
 
 function HerobisPage() {
   return <Herobis/>;

@@ -1,7 +1,8 @@
 {
   "/_app": "pages/_app.js",
-  "/_document": "pages/_document.js",
   "/_error": "pages/_error.js",
-  "/": "pages/index.js",
-  "/tracks/afrowave": "pages/tracks/afrowave.js"
+  "/_document": "pages/_document.js",
+  "/tracks/chillrap": "pages/tracks/chillrap.js",
+  "/tracks/ghettoyouth": "pages/tracks/ghettoyouth.js",
+  "/": "pages/index.js"
 }

@@ -1,4 +1,4 @@
-import Nepal from '../../components/Nepal';
+import Nepal from '../../../components/Tracks/Chillrap/Nepal';
 
 function NepalPage() {
   return <Nepal/>;

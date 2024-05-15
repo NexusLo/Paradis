@@ -11,7 +11,7 @@ const NextgenHero = () => {
 
         <div className={styles.colonne}>
          <div className={styles.colorContainer}>
-            <h2>Nos Classiques</h2>
+            <h2>Nos Etoiles Montantes</h2>
          </div>
         <ul>
             <li onClick={() => handleDialogItemClick('/tracks/nextgen/roshi')}className={styles.liContainer}>Capitaine Roshi</li>

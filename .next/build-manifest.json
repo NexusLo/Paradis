@@ -30,10 +30,15 @@
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
     ],
-    "/tracks/afrowave": [
+    "/tracks/chillrap": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/tracks/afrowave.js"
+      "static/chunks/pages/tracks/chillrap.js"
+    ],
+    "/tracks/ghettoyouth": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/tracks/ghettoyouth.js"
     ]
   },
   "ampFirstPages": []

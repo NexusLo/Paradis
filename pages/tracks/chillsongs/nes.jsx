@@ -1,4 +1,4 @@
-import Classiques from '../../components/Classiques';
+import Classiques from '../../../components/Tracks/Chillrap/Nes';
 
 function ClassiquesPage() {
   return <Classiques/>;

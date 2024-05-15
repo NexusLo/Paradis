@@ -7,7 +7,7 @@ const ChillHero = () => {
     <div className={styles.landingContainer} id="landing1">
       <div className={styles.leftContainer}>
         <h1 className={styles.landingTitle}>Mellow hip-hop</h1>
-        <h2 className={styles.landingSubtitle}>Des artistes qui vont t'aider à récupérer d'un code goulag</h2>
+        <h2 className={styles.landingSubtitle}>Des artistes qui t'aident à récupérer d'un code goulag</h2>
       </div>
       
       <div className={styles.rightContainer}>

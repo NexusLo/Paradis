@@ -1,7 +1,6 @@
 import Header from '../components/Header';
 import ChillHero from '../components/ChillHero';
 import Kendrick from '../components/Tracks/Chillrap/Kendrick';
-import Kendescription from '../components/Tracks/Chillrap/Kendescription';
 import Isaiah from '../components/Tracks/Chillrap/Isaiah';
 import Jazzybazz from '../components/Tracks/Chillrap/Jazzybazz';
 import Joeybadass from '../components/Tracks/Chillrap/Joeybadass';
@@ -43,7 +42,6 @@ const ChillRap = () => {
           </div>
       </div>
       <div id="kendescription">
-          <Kendescription/>
           <ScrollLink
             to="kendrick" smooth={true} duration={500} className={styles.scrollLeftButton}>
           </ScrollLink>
