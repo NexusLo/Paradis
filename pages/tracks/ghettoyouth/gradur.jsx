@@ -1,4 +1,4 @@
-import Gradur from '../../components//Ghettoyouth/Gradur';
+import Gradur from '../../../components/Tracks/Ghettoyouth/Gradur';
 
 function GradurPage() {
   return <Gradur/>;

@@ -1,4 +1,4 @@
-import Sofiane from '../../components/GhettoYouth/Sofiane';
+import Sofiane from '../../../components/Tracks/Ghettoyouth/Sofiane';
 
 function SofianePage() {
   return <Sofiane/>;
